@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.MainContent{
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}

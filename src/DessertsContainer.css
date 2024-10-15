@@ -1,0 +1,13 @@
+.DessertsContainer{
+    width: 700px;
+    height: auto;
+}
+.itemsContainer{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+h1{
+    margin-top: 0;
+}

@@ -1,0 +1,31 @@
+.productContainer{
+    margin-bottom: 15px;
+}
+.productImgContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    height: 220px; /* height of img + 0.5 * height of button */
+}
+.productImage{
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+/* When the product is selected, set the image border to red */
+.productActive{
+    border: 2px solid hsl(14, 86%, 42%);
+}
+
+p{
+   margin: 5px 0 0 0;
+}
+.category{
+    color: hsl(14, 25%, 72%);
+    font-size: 14px;
+    margin-top: 0 ;
+}
+.price{
+    color: hsl(14, 86%, 42%);
+}

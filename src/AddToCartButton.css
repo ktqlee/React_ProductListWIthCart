@@ -1,0 +1,54 @@
+.addToCart{
+    width: 70%;
+    height: 40px;
+    border-radius: 25px;
+    border: 2px solid hsl(14, 86%, 42%);
+    background-color: hsl(20, 50%, 98%);
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-20px);
+}
+.addToCart:hover{
+    cursor: pointer;
+}
+
+.addToCartDescription{
+    display: inline-block;
+    margin: 0 0 0 5px;
+}
+
+.quantityButton{
+    width: 70%;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 2px solid hsl(14, 86%, 42%);
+    background-color: hsl(14, 86%, 42%);
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateY(-20px);
+}
+.quantity{
+    margin: 0;
+    color: hsl(20, 50%, 98%);
+}
+.increase, .decrease{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    border: 2px solid hsl(20, 50%, 98%);
+    background-color: hsl(14, 86%, 42%);
+    color: hsl(20, 50%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.increase:hover, .decrease:hover{
+    cursor: pointer;
+    background-color: hsl(20, 50%, 98%);
+    color: hsl(14, 86%, 42%);
+}
