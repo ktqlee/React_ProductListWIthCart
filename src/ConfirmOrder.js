@@ -1,6 +1,6 @@
 import React from "react";
 import './ConfirmOrder.css';
-const homePath = './React_ProductListWIthCart';
+const homePath = 'http://ktqlee.github.io/React_ProductListWIthCart';
 
 function ConfirmOrder({order, totalPrice}){
     return (

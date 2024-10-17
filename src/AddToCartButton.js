@@ -1,5 +1,5 @@
 import './AddToCartButton.css'
-const homePath = './React_ProductListWIthCart';
+const homePath = 'http://ktqlee.github.io/React_ProductListWIthCart';
 
 function AddToCartButton({productid, order, modifyOrder}){
 
