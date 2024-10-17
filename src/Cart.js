@@ -1,7 +1,7 @@
 import './Cart.css'
-const homePath = 'http://ktqlee.github.io/React_ProductListWIthCart'; 
+const homePath = './React_ProductListWIthCart'; 
 
-function Cart({productData, order, modifyOrder, totalPrice, setConfirmeOrder}){
+function Cart({order, modifyOrder, totalPrice, setConfirmeOrder}){
 
     const totalQuantity = order.reduce( (total, obj) => {return total = total + obj.quantity}, 0);
 

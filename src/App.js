@@ -65,7 +65,7 @@ function App() {
     <div className='App'>
       <div className='MainContent'>
       <DessertsContainer productData={data} order={order} modifyOrder={modifyOrder}/>
-      <Cart productData={data} order={order} modifyOrder={modifyOrder} 
+      <Cart order={order} modifyOrder={modifyOrder} 
       totalPrice={orderTotalPrice()} setConfirmeOrder={setConfirmeOrder} />
       </div>
       {
