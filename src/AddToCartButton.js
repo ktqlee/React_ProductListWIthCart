@@ -1,4 +1,5 @@
 import './AddToCartButton.css'
+const homePath = 'http://ktqlee.github.io/React_ProductListWIthCart';
 
 function AddToCartButton({productid, order, modifyOrder}){
 
@@ -16,7 +17,7 @@ function AddToCartButton_Unactive({productid, modifyOrder}){
     return(
         // Increase quantity by 1
         <button className='addToCart' onClick={() => modifyOrder(productid, 1)}>
-            <img alt="cart_button" src="/images/icon-add-to-cart.svg"></img>
+            <img alt="cart_button" src={homePath+"/images/icon-add-to-cart.svg"}></img>
             <p className='addToCartDescription'>Add to Cart</p>
         </button>
     );

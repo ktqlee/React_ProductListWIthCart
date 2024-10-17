@@ -1,5 +1,6 @@
 import './ProductItem.css'
 import AddToCartButton from './AddToCartButton'
+const homePath = 'http://ktqlee.github.io/React_ProductListWIthCart';
 
 function ProductItem({productid, image, category, name, price, order, modifyOrder}){
     
@@ -16,7 +17,7 @@ function ProductItem({productid, image, category, name, price, order, modifyOrde
             <div className="productImgContainer">
 
                 <img className={`productImage ${isActive? 'productActive' : ''}`} 
-                    alt="product_image" src={image}>
+                    alt="product_image" src={homePath+image}>
                 </img>
 
                 <AddToCartButton className="AddToCartButton" 

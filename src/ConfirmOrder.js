@@ -1,11 +1,12 @@
 import React from "react";
 import './ConfirmOrder.css';
+const homePath = 'http://ktqlee.github.io/React_ProductListWIthCart';
 
 function ConfirmOrder({order, totalPrice}){
     return (
         <div className="ConfirmOrderBackground">
             <div className="ConfirmOrderContainer">
-                <img src="images/icon-order-confirmed.svg" alt="Order_Comfirm_Icon" className="OrderComfirmIcon"></img>
+                <img src={homePath+"/images/icon-order-confirmed.svg"} alt="Order_Comfirm_Icon" className="OrderComfirmIcon"></img>
                 <h1>Order Confirmed</h1>
                 <p className="EnjoyP">We hope you enjoy your food!</p>
 
@@ -43,7 +44,7 @@ function SubItem({image, name, quantity, price, total}){
     return(
         <div className="ConfirmOrderSubItem">
             <div className="ImageWithTextContainer">
-                <img src={image} alt="Product_Image" className="ConfirmOrderProductImage"></img>
+                <img src={homePath+image} alt="Product_Image" className="ConfirmOrderProductImage"></img>
                 <div className='ConfirmOrderProductInfo'>
                     <p className='ConfirmOrderProductName'>{name}</p>
                     <p className='ConfirmOrderProductQuantity'>{quantity}x</p>

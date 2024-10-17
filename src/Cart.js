@@ -1,4 +1,5 @@
 import './Cart.css'
+const homePath = 'http://ktqlee.github.io/React_ProductListWIthCart'; 
 
 function Cart({productData, order, modifyOrder, totalPrice, setConfirmeOrder}){
 
@@ -24,7 +25,7 @@ function CartHeader({totalQuantity}){
 function Cart_Empty(){
     return(
         <div className='Cart_Empty'>
-            <img src='/images/illustration-empty-cart.svg' alt='EmptyCartIllsutration' className='emptyCartImg'></img>
+            <img src={homePath+'/images/illustration-empty-cart.svg'} alt='EmptyCartIllsutration' className='emptyCartImg'></img>
             <p className='cartEmptyMessage'>Your added items will appear here</p>
         </div>
     ); 
@@ -43,7 +44,7 @@ function Cart_NonEmpty({order, modifyOrder, totalPrice, setConfirmeOrder}){
             </div>
 
             <div className='CarbonNeutralDelivery'>
-                <img src='/images/icon-carbon-neutral.svg' alt='CarbonNeutralIcon'></img>
+                <img src={homePath+'/images/icon-carbon-neutral.svg'} alt='CarbonNeutralIcon'></img>
                 <label>This is a <b>carbon-neutral</b> delivery</label>
             </div>
 
@@ -87,7 +88,7 @@ function Cart_SubItem({index, name, quantity, price, total, modifyOrder}){
             </div>
 
             <button className='RemoveProduct' onClick={ () => modifyOrder(index, -quantity) } >
-                <img src='/images/icon-remove-item.svg' alt='RemoveIcon' ></img>
+                <img src={homePath+'/images/icon-remove-item.svg'} alt='RemoveIcon' ></img>
             </button>
             
         </div>
