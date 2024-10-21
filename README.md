@@ -1,6 +1,6 @@
 # Frontend Mentor - Product list with cart
 
-[Live Site URL](https://ktqlee.github.io/React_ProductListWIthCart/)
+🌐 **Github Page for this project:** [Live Site URL](https://ktqlee.github.io/React_ProductListWIthCart/)
 
 ![Design Preview](/doc/cart_preview.png)
 
