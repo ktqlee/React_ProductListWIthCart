@@ -1,16 +1,18 @@
 # Frontend Mentor - Product list with cart
 
-![Design Preview ](./preview.jpg)
+![Design Preview](/doc/cart_preview.png)
 
 React is used in this project.
 
 [Live Site URL](https://ktqlee.github.io/React_ProductListWIthCart/)
 
+["Product List With Cart" Challenge From Frontend Mentor](https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d)
+
 ## Active State
-![Active State of Shopping Cart]()
+![Active State of Shopping Cart](/doc/cart_activeState.png)
 
 ## Confirm Order State
-![Confirm Order State]()
+![Confirm Order State](/doc/cart_confirmOrderState.png)
 
 ## Design of Shopping Cart
 
@@ -18,7 +20,7 @@ The Shopping Cart was originally designed as an array of integers to store the q
 
 However, it was observed that the sequence of products did not correspond to the order in which they were added, which could lead to confusion for users.
 
-![Cart Sequence According To Product ID](/doc/cart_seq_edit.png)
+![Cart Sequence According To Product ID](/doc/cart_oldSeq_edit.png)
 
 To address this, the Shopping Cart was redesigned to render products based on the sequence in which they were added. When a user adds a product to the cart, a new Product object is pushed to the order state (an array that stores these objects). As a result, the shopping cart now displays the list of products in the correct time sequence.
 
@@ -60,4 +62,4 @@ const modifyOrder = (id, num) => {
   }
 ```
 
-![New Design of Cart Showing the Correct Sequence]()
+![New Design of Cart Showing the Correct Sequence](/doc/cart_newSeq_edit.png)
