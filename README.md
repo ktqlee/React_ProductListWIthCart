@@ -1,10 +1,10 @@
 # Frontend Mentor - Product list with cart
 
+[Live Site URL](https://ktqlee.github.io/React_ProductListWIthCart/)
+
 ![Design Preview](/doc/cart_preview.png)
 
 React is used in this project.
-
-[Live Site URL](https://ktqlee.github.io/React_ProductListWIthCart/)
 
 ["Product List With Cart" Challenge From Frontend Mentor](https://www.frontendmentor.io/challenges/product-list-with-cart-5MmqLVAp_d)
 
